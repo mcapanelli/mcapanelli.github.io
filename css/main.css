@@ -1,3 +1,13 @@
 @charset "UTF-8";
 /* main css for global elements */
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 48px;
+	font-weight: bolder;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: bold;
+}
 
