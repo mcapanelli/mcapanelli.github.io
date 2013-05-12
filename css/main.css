@@ -1,15 +1,25 @@
 @charset "UTF-8";
 /* main css for global elements */
+body {
+     background: red;
+     font-family: Georgia, "Times New Roman:, Times, serif;
+     }
+p { 
+    font-size: 12px;
+    font-color: white;
+    }
+    
+
 h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 48px;
 	font-weight: bolder;
-	color: blue;
+	color: gold;
 }
   h3 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: bold;
-	color: blue;
+	color: gold;
 }
 
