@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* main css for global elements */
-#logo_text {
+h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 48px;
 	font-weight: bolder;
 	color: blue;
 }
-#logo_subtext {
+  h3 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 36px;
 	font-weight: bold;
