@@ -1,9 +1,12 @@
 @charset "UTF-8";
 /* main css for global elements */
-body {
-     background: red;
-     font-family: Georgia, "Times New Roman:, Times, serif;
-     }
+html { 
+  background: url LIHFS/background.png no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
  
     
 h1 {
