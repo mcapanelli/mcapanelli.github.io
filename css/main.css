@@ -4,12 +4,8 @@ body {
      background: red;
      font-family: Georgia, "Times New Roman:, Times, serif;
      }
-p { 
-    font-size: 12px;
-    font-color: white;
-    }
+ 
     
-
 h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 48px;
@@ -23,3 +19,7 @@ h1 {
 	color: gold;
 }
 
+p { 
+    font-size: 15px;
+    font-color: white;
+    }
