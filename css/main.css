@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* main css for global elements */
 
-div
+.body
 {
-background:url(LIHFS/background.png);
+background:url(background.png);
  background-repeat: repeat;
 }
     
@@ -22,6 +22,4 @@ h1 {
 
 p { 
     font-size: 15px;
-    color: white;
-    background-color: red;
-    }
+     }
