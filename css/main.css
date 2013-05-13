@@ -2,7 +2,7 @@
 /* main css for global elements */
 
  header { 
-  background-image: url (LIHFS/background.png) no-repeat center center fixed; 
+  background-image: url (mcapanelli.github.io/LIHFS/background.png) no-repeat center center fixed; 
   webkit-background-size: cover;
   moz-background-size: cover;
   background-size: cover;
@@ -25,5 +25,5 @@ h1 {
 
 p { 
     font-size: 15px;
-    font-color: white;
+    color: white;
     }
