@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* main css for global elements */
 
- body  { 
- background-image: url (LIHFS/background.png);
- backgound-repeat: repeat;
+div
+{
+background:url(LIHFS/background.png);
+ background-repeat: repeat;
 }
- 
     
 h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
