@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* main css for global elements */
 
-   { 
- color: red;
+ body  { 
+ background: red;
 }
  
     
