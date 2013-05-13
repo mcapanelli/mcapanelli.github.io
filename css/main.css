@@ -2,25 +2,29 @@
 /* main css for global elements */
 
 body
-{
-background:url(LIHFS/background.png);
+    {
+background:url(mcapanelli.github.io/LIHFS/background.png);
 background-size:600px 800px;
 background-repeat:no-repeat;
 padding-top:40px;
 }  
-h1 {
+h1 
+  {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 48px;
 	font-weight: bolder;
 	color: gold;
 }
-  h3 {
+  h3 
+    {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 24px;
 	font-weight: bold;
 	color: gold;
 }
 
-p { 
+p 
+   { 
     font-size: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
      }
