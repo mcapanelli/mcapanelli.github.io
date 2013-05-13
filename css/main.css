@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* main css for global elements */
 
- header { 
+ body { 
   background-image: url (mcapanelli.github.io/LIHFS/background.png) no-repeat center center fixed; 
   background-repeat: repeat; 
 }
