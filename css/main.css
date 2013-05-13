@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* main css for global elements */
 
- html { 
+   { 
  color: red;
 }
  
@@ -22,4 +22,5 @@ h1 {
 p { 
     font-size: 15px;
     color: white;
+    background-color: red;
     }
