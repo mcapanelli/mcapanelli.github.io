@@ -27,6 +27,8 @@ display: block;
 text-decoration: none;
 background: #fff;
 height: 30px;
+line-height: 30px;
+text-align: center;
 }
 a:link {
 color: black;
@@ -47,10 +49,7 @@ background-color: navy;
 li {
 list-style-type: none;
 }
-.global_navigation:active {
-color: aqua;
-background-color: navy;
-}
+ 
 
 .logo_text {
 float: left;
