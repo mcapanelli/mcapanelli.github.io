@@ -33,20 +33,20 @@ p
     font-size: 15px;
     font-family: Georgia, "Times New Roman", Times, serif;
      }
-     .woodcut {
+     
+.woodcut {
      float: left;
-     
      }
-     .mission_statment  {
-     clear: left;
      
+ 
  .sessions {
  clear: left;
+  }
  
- }
  .third_statment {
  clear: left;
  }
+ 
  .declearation {
  clear: left;
  }
