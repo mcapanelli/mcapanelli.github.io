@@ -3,7 +3,8 @@
 
 body
     {
-background-color: rgba(50, 96, 255, 0.5);
+background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#5CFFFF), to(#5572FF))
+opacity: 0.5;
 font: 15px/1.5 "Georgia, "Times New Roman", Times, serif;
 margin: 0 auto;
 }
@@ -47,6 +48,8 @@ a:active {
 color: aqua;
 background-color: navy;
 }
+
+/* End global navigation css */
 
 li {
 list-style-type: none;
