@@ -10,15 +10,19 @@ background: blue;
 a {
 font-weight: bold;
 }
-.global_navigation:link {
+a:link {
 color: black;
 }
-.global_navigation: visited {
-color: black;
+a:visited {
+color: gray;
 }
-.global_navigation:hover {
+a:hover {
 text-decoration: none;
 color: white;
+background-color: navy;
+}
+a:active {
+color: aqua;
 background-color: navy;
 }
 .global_navigation:active {
