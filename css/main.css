@@ -6,6 +6,9 @@ body
 background: blue;
  
 } 
+.logo_text {
+float: right;
+}
 
 a {
 font-weight: bold;
