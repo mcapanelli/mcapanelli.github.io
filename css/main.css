@@ -7,12 +7,34 @@ background:url(mcapanelli.github.io/LIHFS/background.png);
 background-repeat:no-repeat;
 padding-top:40px;
 } 
+
+a {
+font-weight: bold;
+}
+a:link {
+color: black;
+}
+a:visited {
+color: gray;
+}
+a:hover {
+text-decoration: none;
+color: silver;
+background-color: navy;
+}
+a:active {
+color: aqua;
+background-color: navy;
+}
+
 .logo_text {
 float: right;
 } 
+
 .logo_subtext {
 float: right;
 }
+
 h1 
   {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -20,6 +42,7 @@ h1
 	font-weight: bolder;
 	color: gold;
 }
+ 
   h3 
     {
 	font-family: Georgia, "Times New Roman", Times, serif;
