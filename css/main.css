@@ -4,10 +4,12 @@
 body
     {
 background:url(mcapanelli.github.io/LIHFS/background.png);
-background-size:600px 800px;
 background-repeat:no-repeat;
 padding-top:40px;
-}  
+} 
+.logo_text {
+float: right;
+} 
 h1 
   {
 	font-family: Georgia, "Times New Roman", Times, serif;
