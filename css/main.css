@@ -51,6 +51,8 @@ background-color: navy;
 li {
 list-style-type: none;
 }
- 
+ .footer_text {
+ clear: left;
+ }
  
  
