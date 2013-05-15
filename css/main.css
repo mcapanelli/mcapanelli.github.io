@@ -25,6 +25,9 @@ a:active {
 color: aqua;
 background-color: navy;
 }
+li {
+list-style-type: none;
+}
 .global_navigation:active {
 color: aqua;
 background-color: navy;
