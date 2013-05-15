@@ -7,7 +7,7 @@ background: blue;
  
 } 
  
-a {
+.global_navigation {
 font-weight: bold;
 }
 a:link {
@@ -40,19 +40,8 @@ float: left;
 .footer_text {
 clear: left;
 }
-.footer.nav {
-clear: left;
-a: link
-color: black;
-a: visited
-color: purple;
-a: hover
-color: white:
-a: active
-color: red;
-}
  
-h1 
+ h1 
   {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 38px;
