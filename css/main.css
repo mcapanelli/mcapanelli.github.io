@@ -4,8 +4,10 @@
 body
     {
 background: blue;
- 
+font: 15px/1.5 "Georgia, "Times New Roman", Times, serif;
+margin: 0 auto;
 }
+/* Global navigation css */
 
 ul {
 width: 800px:
@@ -50,52 +52,5 @@ li {
 list-style-type: none;
 }
  
- .intro_text {
-clear: left;
-}
-
-
-
-.main_image {
-float: left;
-}
-.footer_text {
-clear: left;
-}
  
- h1 
-  {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 38px;
-	font-weight: bolder;
-	color: gold;
-}
  
-  h3 
-    {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 18px;
-	font-weight: bold;
-	color: gold;
-}
-
-p 
-   { 
-    font-size: 15px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-     }
-     
-.woodcut {
-     float: left;
-     }
-     .sessions {
-     clear: left;
-      }
-     
-  .third_statment {
- clear: left;
- }
- 
- .declearation {
- clear: left;
- }
