@@ -54,5 +54,8 @@ list-style-type: none;
  .footer_text {
  clear: left;
  }
+ p {
+ text-align: justify;
+ }
  
  
