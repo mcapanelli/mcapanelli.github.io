@@ -40,7 +40,7 @@ p
      
  
  .sessions {
- clear: left;
+ float: right;
   }
  
  .third_statment {
