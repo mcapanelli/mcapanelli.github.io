@@ -38,12 +38,7 @@ p
      float: left;
      }
      
- 
- .sessions {
- float: right;
-  }
- 
- .third_statment {
+  .third_statment {
  clear: left;
  }
  
