@@ -37,7 +37,11 @@ p
      float: left;
      
      }
-     .mission_statment .second_statment {
+     .mission_statment  {
      clear: left;
      
      }
+.second_statment{
+clear: left;
+
+}
