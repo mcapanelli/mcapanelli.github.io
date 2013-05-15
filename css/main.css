@@ -5,10 +5,28 @@ body
     {
 background: blue;
  
+}
+
+ul {
+width: 600px:
+margin: 0 auto;
+background: #666;
+list-style-type: none;
+padding: 0;
 } 
+ 
+ li {
+ width: 100px;
+ background: silver;
+ float: left;
+ }
  
 a {
 font-weight: bold;
+display: block;
+text-decoration: none;
+background: #fff;
+height: 30px;
 }
 a:link {
 color: black;
@@ -25,6 +43,7 @@ a:active {
 color: aqua;
 background-color: navy;
 }
+
 li {
 list-style-type: none;
 }
