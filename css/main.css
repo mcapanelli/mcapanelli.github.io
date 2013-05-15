@@ -37,6 +37,9 @@ p
 .woodcut {
      float: left;
      }
+     .sessions {
+     padding-left: 100px;
+      }
      
   .third_statment {
  clear: left;
