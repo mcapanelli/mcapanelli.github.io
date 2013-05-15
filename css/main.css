@@ -38,10 +38,10 @@ float: right;
 float: left;
 }
 .footer_text {
-clear: right;
+clear: left;
 }
 .footer.nav {
-clear: right;
+clear: left;
 }
  
 h1 
