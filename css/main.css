@@ -53,13 +53,14 @@ background-color: navy;
 }
 
 .logo_text {
-float: right;
-} 
-
-.logo_subtext {
-float: right;
+float: left;
 margin: 0 auto;
+} 
+.intro_text {
+clear: left;
 }
+
+
 
 .main_image {
 float: left;
