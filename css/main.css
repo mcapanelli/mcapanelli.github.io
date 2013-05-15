@@ -10,18 +10,18 @@ background: blue;
 .global_navigation {
 font-weight: bold;
 }
-a:link {
+.global_navigation:link {
 color: black;
 }
-a:visited {
+.global_navigation: visited {
 color: black;
 }
-a:hover {
+.global_navigation:hover {
 text-decoration: none;
 color: white;
 background-color: navy;
 }
-a:active {
+.global_navigation:active {
 color: aqua;
 background-color: navy;
 }
