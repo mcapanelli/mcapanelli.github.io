@@ -42,6 +42,14 @@ clear: left;
 }
 .footer.nav {
 clear: left;
+a: link
+color: black;
+a: visited
+color: purple;
+a: hover
+color: white:
+a: active
+color: red;
 }
  
 h1 
