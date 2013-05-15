@@ -7,7 +7,7 @@ background: blue;
  
 } 
  
-.global_navigation {
+a {
 font-weight: bold;
 }
 .global_navigation:link {
