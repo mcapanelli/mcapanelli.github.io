@@ -38,7 +38,7 @@ p
      float: left;
      }
      .sessions {
-     padding-left: 100px;
+     clear: left;
       }
      
   .third_statment {
