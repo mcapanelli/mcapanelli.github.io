@@ -7,7 +7,7 @@ background-color: rgba(50, 96, 255, 0.5);
 width: 1000px;
 padding: 10px;
 margin: 0 auto;
-font: 15px/1.5 "Georgia, "Times New Roman", Times, sans-serif;
+font: 15px/1.5 "Georgia, "Times New Roman", Times, sans-serif #fff;
 margin: 0 auto;
 }
 /* Global navigation css */
