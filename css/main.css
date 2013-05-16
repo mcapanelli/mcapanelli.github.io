@@ -72,6 +72,10 @@ margin-bottom: 20px;
 margin-bottom: 55px;
 }
 
+.main_image {
+margin: 2px;
+}
+
 .intro_text {
 background: #fff;
 opacity: 0.5;
