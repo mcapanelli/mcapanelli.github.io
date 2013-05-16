@@ -73,15 +73,11 @@ margin-bottom: 20px;
 margin-bottom: 55px;
 }
 
-.intro_text {
+#intro_text {
 background-color: #fff
 border: 1px solid #000
 opacity: 0.5;
 padding: 5px;
 margin: 10px 20px;
-}
-
-.header_text {
-margin-bottom: 55px;
 }
  
