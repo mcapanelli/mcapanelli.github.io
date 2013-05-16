@@ -62,5 +62,9 @@ list-style-type: none;
  text-align: justify;
  padding: 5px 10px 20px;
  }
+
+ #contact_form {
+ float: left;
+ }
  
  
