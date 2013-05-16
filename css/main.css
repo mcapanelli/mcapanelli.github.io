@@ -93,13 +93,21 @@ column-count: 2;
 }
 
 .bradsbio{
+width: 428px;
 float: left;
-margin: 15px;
+margin: 10px;
+border-width: 2pxpx;
+border-radius: 10px;
+border-style: solid;
 }
 
 .mikesbio {
+width: 428px;
 float: left;
-margin: 15px;
+margin: 10px;
+border-width: 2pxpx;
+border-radius: 10px;
+border-style: solid;
 }
 
 .woodcut {
