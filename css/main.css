@@ -93,6 +93,8 @@ column-count: 2;
 }
 
 .bradsbio{
+background: #fff;
+opacity; 0.5;
 width: 428px;
 float: left;
 margin: 10px;
@@ -102,6 +104,8 @@ border-style: solid;
 }
 
 .mikesbio {
+background: #fff;
+opacity; 0.5;
 width: 428px;
 float: left;
 margin: 10px;
