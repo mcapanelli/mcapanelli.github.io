@@ -92,6 +92,16 @@ border-color: black;
 column-count: 2;
 }
 
+.bradsbio{
+float: left;
+margin: 15px;
+}
+
+.mikesbio {
+float: left;
+margin: 15px;
+}
+
 .woodcut {
 float: left;
 margin: 10px;
