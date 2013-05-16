@@ -87,8 +87,11 @@ border-style: solid;
 border-color: black;
 }
 
-.woodcut {
+#about_content {
+column-count: 4;
+}
+ 
+ .woodcut {
 float: left;
 margin: 10px;
 }
- 
