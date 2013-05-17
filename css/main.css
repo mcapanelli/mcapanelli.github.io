@@ -11,15 +11,15 @@ font: 15px/1.5'Didact Gothic', sans-serif;
 margin: 0 auto;
 }
 
+/* global elements css */
+
 .lihfslogo {
 font-weight: bold;
 float: left;
 margin: 0 auto;
 }
 
-/* Global navigation css */
-
-ul {
+ ul {
 width: 960px:
 margin: 0 auto;
 background: #666;
@@ -58,14 +58,15 @@ color: aqua;
 background-color: navy;
 }
 
-/* End global navigation css */
-
 li {
 list-style-type: none;
 }
  .footer_text {
  clear: left;
  }
+ 
+ /* End global elements css. Begin home page css */
+ 
  p {
  text-align: justify;
  padding: 5px 10px 20px;
@@ -78,6 +79,7 @@ margin-bottom: 20px;
 .logo_text {
 margin-bottom: 55px;
 }
+
 
 .main_image {
 margin-top: 10px;
@@ -96,6 +98,13 @@ border-color: black;
 
 .social_media {
 float: left;
+}
+
+/* end home page css. Begin about page css */
+
+#about_heading #about_subheading
+{
+  text-align: center;
 }
 
 #instructors {
