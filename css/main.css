@@ -12,6 +12,11 @@ margin: 0 auto;
 text-align: center;
 }
 
+h1 h2 h3 h4 {
+font-type: bold;
+text-align: center;
+}
+
 /* global elements css */
 
 .lihfslogo {
@@ -65,9 +70,7 @@ list-style-type: none;
 }
 
  .footer_text {
-background: #fff;
-opacity: 0.5;
-width: 930px:
+ width: 926px:
 }
  
 /* End global elements css. Begin home page css */
