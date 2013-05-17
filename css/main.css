@@ -199,6 +199,10 @@ float:left;
 float:left;
  margin:2px;
 }
+.gallery_text{
+clear: left;
+}
+
 /* end gallery css. Begin article css. */
 
 #article{
