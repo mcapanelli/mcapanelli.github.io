@@ -101,7 +101,8 @@ float: left;
 }
 
 /* end home page css. Begin about page css */
-.about_content{
+
+#about_content{
 background: #fff;
 opacity; 0.5;
 width: 856px;
