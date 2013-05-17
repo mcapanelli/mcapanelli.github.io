@@ -102,7 +102,7 @@ float: left;
 
 /* end home page css. Begin about page css */
 
-#mission_statment second_statment third_statment declaration {
+.mission_statment second_statment third_statment declaration {
 background: #fff;
 opacity; 0.5;
 width: 856px;
@@ -113,7 +113,7 @@ border-radius: 10px;
 border-style: solid;
 }
 
-#about_heading #about_subheading
+.about_heading about_subheading
 {
 font-weight: bold;
   text-align: center;
