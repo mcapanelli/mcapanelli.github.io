@@ -62,12 +62,23 @@ li {
 list-style-type: none;
 }
 
-#footer{
-columns: 2;
+#footer {
+column-count: 2;
 }
- .footer_text social_media {
- clear: left;
- }
+
+.footer_text {
+background: #fff;
+opacity: 0.5;
+width: 486px:
+float: right;
+}
+
+.social_media {
+background: #fff;
+opacity: 0.5;
+width: 486px:
+float: right;
+}
  
  /* End global elements css. Begin home page css */
  
