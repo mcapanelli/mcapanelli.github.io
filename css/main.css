@@ -61,7 +61,11 @@ background-color: navy;
 li {
 list-style-type: none;
 }
- .footer_text .social_media {
+
+#footer{
+columns: 2;
+}
+ .footer_text social_media {
  clear: left;
  }
  
@@ -94,10 +98,6 @@ border-radius: 10px;
 border-width: 2px;
 border-style: solid;
 border-color: black;
-}
-
-.social_media {
-clear: left;
 }
 
 /* end home page css. Begin about page css */
