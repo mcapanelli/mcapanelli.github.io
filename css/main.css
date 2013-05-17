@@ -164,41 +164,12 @@ margin-top: 10px;
 
 /*end instructors page css. begin gallery css */
 
-.brad_mike 
+.brad_mike .brad_bsg .brad_monatine .christian .jeff_shop .josh_longpoint
 {
 float:left;
  margin:2px;
 }
 
-.brad_bsg
-{
-float:left;
- margin:2px;
-}
-
-.brad_montaine
-{
-float:left;
- margin:2px;
-}
-
-.christian
-{
-float:left;
- margin:2px;
-}
-
-.jeff_shop
-{
-float:left;
- margin:2px;
-}
-
-.josh_longpoint
-{
-float:left;
- margin:2px;
-}
 .gallery_text{
 clear: left;
 }
