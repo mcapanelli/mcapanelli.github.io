@@ -107,6 +107,11 @@ border-color: black;
 
 /* end home page css. Begin about page css */
 
+.woodcut {
+float: left;
+margin: 10px;
+}
+
 .mission_statment{
 background: #fff;
 opacity; 0.5;
@@ -157,7 +162,40 @@ clear: left;
 margin-top: 10px;
 }
 
-.woodcut {
-float: left;
-margin: 10px;
+/*end instructors page css. begin gallery css */
+
+.brad_mike 
+{
+float:left;
+ margin:5px;
+}
+
+.brad_bsg
+{
+float:left;
+ margin:5px;
+}
+
+.brad_montaine
+{
+float:left;
+ margin:5px;
+}
+
+.christian
+{
+float:left;
+ margin:5px;
+}
+
+.jeff_shop
+{
+float:left;
+ margin:5px;
+}
+
+.josh_longpoint
+{
+float:left;
+ margin:5px;
 }
