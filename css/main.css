@@ -13,8 +13,9 @@ text-align: center;
 }
 
 h1 h2 h3 h4 {
-font-type: bold;
+font-weight: bold;
 text-align: center;
+text-shadow: 1px 1px 3px #323232;
 }
 
 /* global elements css */
@@ -106,6 +107,20 @@ border-color: black;
 }
 
 /* end home page css. Begin about page css */
+
+.about_heading {
+font: 'Deutsh gothic','Didact Gothic', sans-serif;  
+weight: bold;
+text-shadow: 1px 1px 3px #323232;
+}
+
+.group_shot {
+border-width: 2pxpx;
+border-radius: 10px;
+border-style: solid;
+}
+
+
 
 .woodcut {
 float: left;
