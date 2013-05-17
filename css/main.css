@@ -199,3 +199,7 @@ float:left;
 float:left;
  margin:5px;
 }
+
+.gallery_footer{
+clear: left;
+}
