@@ -62,25 +62,14 @@ li {
 list-style-type: none;
 }
 
-#footer {
-column-count: 2;
-}
-
-.footer_text {
-background: #fff;
-opacity: 0.5;
-width: 486px:
-float: right;
-}
-
-.social_media {
+ .footer_text {
 background: #fff;
 opacity: 0.5;
 width: 486px:
 float: right;
 }
  
- /* End global elements css. Begin home page css */
+/* End global elements css. Begin home page css */
  
  p {
  text-align: justify;
