@@ -115,23 +115,17 @@ margin: 10px;
 .mission_statment{
 background: #fff;
 opacity; 0.5;
-width: 856px;
-margin-left: 63px;
+width: 901px;
+margin-left: 33px;
+margin-top: 5px;
 border-width: 2pxpx;
 border-radius: 10px;
 border-style: solid;
 }
 
-.about_heading about_subheading
-{
-font-weight: bold;
-  text-align: center;
-  float: right;
-  margin-top; 10px;
-  display: inline;
-}
+/* End About CSS. Begin Instructor CSS. */
 
-#instructors {
+ #instructors {
 column-count: 2;
 }
 
