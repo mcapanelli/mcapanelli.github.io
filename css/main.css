@@ -101,6 +101,16 @@ float: left;
 }
 
 /* end home page css. Begin about page css */
+.about_content{
+background: #fff;
+opacity; 0.5;
+width: 856px;
+float: left;
+margin: 10px;
+border-width: 2pxpx;
+border-radius: 10px;
+border-style: solid;
+}
 
 #about_heading #about_subheading
 {
