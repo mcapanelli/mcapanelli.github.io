@@ -102,7 +102,7 @@ float: left;
 
 /* end home page css. Begin about page css */
 
-#about_content{
+#mission_statment second_statment third_statment declaration {
 background: #fff;
 opacity; 0.5;
 width: 856px;
@@ -119,6 +119,7 @@ font-weight: bold;
   text-align: center;
   float: right;
   margin-top; 10px;
+  display: inline;
 }
 
 #instructors {
