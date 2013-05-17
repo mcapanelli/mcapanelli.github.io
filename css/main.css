@@ -104,7 +104,10 @@ float: left;
 
 #about_heading #about_subheading
 {
+font-weight: bold;
   text-align: center;
+  float: right;
+  margin-top; 10px;
 }
 
 #instructors {
