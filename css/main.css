@@ -199,5 +199,14 @@ float:left;
 float:left;
  margin:2px;
 }
+/* end gallery css. Begin article css. */
 
+.wooden_fang{
+background: #fff;
+opacity; 0.5;
+margin: 10px;
+border-width: 2pxpx;
+border-radius: 10px;
+border-style: solid;
+}
 
