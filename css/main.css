@@ -61,7 +61,7 @@ background-color: navy;
 li {
 list-style-type: none;
 }
- .footer_text {
+ .footer_text .social_media {
  clear: left;
  }
  
@@ -97,8 +97,7 @@ border-color: black;
 }
 
 .social_media {
-float: right;
-margin-bottom: 121px;
+clear: left;
 }
 
 /* end home page css. Begin about page css */
