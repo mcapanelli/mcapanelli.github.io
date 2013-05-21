@@ -10,7 +10,7 @@ background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 
 background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
 /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); IE6-9 */
-width: 100%;
+width: 1000px;
 padding: 10px;
 margin: 0 auto;
 font: 15px/1.5'Didact Gothic', sans-serif;
@@ -32,7 +32,7 @@ margin: 0 auto;
 }
 
  ul {
-width: 96%:
+width: 960px;
 margin: 0 auto;
 background: #666;
 list-style-type: none;
@@ -96,7 +96,7 @@ margin-bottom: 55px;
 
 
 .main_image {
-width: 96%;
+width: 960px;
 margin-top: 10px;
 
 }
