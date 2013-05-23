@@ -10,28 +10,59 @@ background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 
 background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
 /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); IE6-9 */
-width: 1000px;
-padding: 10px;
+width: 100%;/*1000px;*/
+padding: 1%;/*10px;*/
 margin: 0 auto;
-font: 15px/1.5'Didact Gothic', sans-serif;
+font: 100%  1.5 'Didact Gothic', sans-serif;
 text-align: center;
 }
 
-h1 h2 h3 h4 {
+#wrapper {
+width: 96%;
+}
+
+h1
+{
+font-size: 2em; /*32px*/
 font-weight: bold;
 text-align: center;
 text-shadow: 1px 1px 3px #323232;
 }
 
-/* global elements css */
 
-.lihfslogo {
+h2
+{
+font-size: 1.5em; /*24px*/
 font-weight: bold;
-float: left;
-margin: 0 auto;
+text-align: center;
+text-shadow: 1px 1px 3px #323232;
 }
 
- ul {
+
+h3
+{
+font-size: 1.25em; /*20*/
+font-weight: bold;
+text-align: center;
+text-shadow: 1px 1px 3px #323232;
+}
+
+
+h4
+{
+font-size: 1.125em; /*18px*/
+font-weight: bold;
+text-align: center;
+text-shadow: 1px 1px 3px #323232;
+}
+
+img 
+{max-width: 100%;
+}
+
+/* global elements css */
+ 
+ul  {
 width: 960px;
 margin: 0 auto;
 background: #666;
@@ -40,13 +71,13 @@ padding: 0;
 margin-left: 20px;
 } 
  
- li {
+ li  {
  width: 160px;
  background: silver;
  float: left;
  }
  
-a {
+a { 
 font-weight: bold;
 display: block;
 text-decoration: none;
@@ -71,12 +102,12 @@ color: aqua;
 background-color: navy;
 }
 
-li {
+li.global_navigation {
 list-style-type: none;
 }
 
  .footer_text {
- width: 926px:
+ width: 92.6%;/*926px:*/
 }
  
 /* End global elements css. Begin home page css */
@@ -87,27 +118,27 @@ list-style-type: none;
  }
 
 .logo {
-margin-bottom: 20px;
+margin-bottom: 2%;/*20px;*/
 }
 
 .logo_text {
-margin-bottom: 55px;
+margin-bottom: 5.5%;/*55px;*/
 }
 
 
 .main_image {
-width: 960px;
-margin-top: 10px;
+width: 93%; /*930px;*/
+margin-top: 1.075269%;/*10px;*/
 
 }
 
 .intro_text {
 background: #fff;
 opacity: 0.5;
-width: 930px;
-margin-left: 0.21505376%;
-border-radius: 0.10752688%;
-border-width: 0.02150538%;
+width: 93%;/*930px;*/
+margin-left:2.5%; /*25px;*/
+border-radius: 1%; /*10px;*/
+border-width: 0.2%;/*2px;*/
 border-style: solid;
 border-color: black;
 }
@@ -135,11 +166,10 @@ margin: 10px;
 
 .mission_statment{
 background: #fff;
-opacity; 0.5;
 width: 901px;
 margin-left: 33px;
 margin-top: 5px;
-border-width: 2pxpx;
+border-width: 2px;
 border-radius: 10px;
 border-style: solid;
 }
