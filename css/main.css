@@ -47,6 +47,11 @@ text-align: center;
 text-shadow: 1px 1px 3px #323232;
 }
 
+p {
+font-size: 1em;
+
+}
+
 img 
 {max-width: 100%;
 }
@@ -54,16 +59,16 @@ img
 /* global elements css */
  
 ul  {
-width: 960px;
+width: 100% /*960px;*/
 margin: 0 auto;
 background: #666;
 list-style-type: none;
 padding: 0;
-margin-left: 20px;
+margin-left: 2%/*20px;*/
 } 
  
  li  {
- width: 160px;
+ width: 10em;/* 160px;*/
  background: silver;
  float: left;
  }
@@ -73,8 +78,8 @@ font-weight: bold;
 display: block;
 text-decoration: none;
 background: #fff;
-height: 30px;
-line-height: 30px;
+height: 1.875em; /* 30px;*/
+line-height: 1.875em; /* 30px;*/
 text-align: center;
 }
 a:link {
@@ -143,6 +148,7 @@ text-shadow: 1px 1px 3px #323232;
 }
 
 .group_shot {
+width: 90.5%;
 border-width: 2pxpx;
 border-radius: 10px;
 border-style: solid;
@@ -157,45 +163,45 @@ margin: 10px;
 
 .mission_statment{
 background: #fff;
-width: 901px;
-margin-left: 33px;
-margin-top: 5px;
-border-width: 2px;
-border-radius: 10px;
+width: 93%;/*930px;*/
+margin-left:2.5%; /*25px;*/
+border-radius: 1%; /*10px;*/
+border-width: 0.2%;/*2px;*/
 border-style: solid;
+border-color: black;
 }
 
 /* End About CSS. Begin Instructor CSS. */
 
- #instructors {
-column-count: 2;
-}
-
-.bradsbio{
+ 
+.bradsbio
+{
 background: #fff;
 opacity; 0.5;
 width: 428px;
 float: left;
 margin: 10px;
-border-width: 2pxpx;
+border-width: 2px;
 border-radius: 10px;
 border-style: solid;
 }
 
-.mikesbio {
+.mikesbio 
+{
 background: #fff;
 opacity; 0.5;
 width: 428px;
 float: left;
 margin: 10 20;
-border-width: 2pxpx;
+border-width: 2px;
 border-radius: 10px;
 border-style: solid;
 }
- 
-#instructors_footer {
+
+#instructors_footer 
+{
 clear: left;
-margin-top: 10px;
+margin-top: 1%;/*10px;*/
 }
 
 /*end instructors page css. begin gallery css */
