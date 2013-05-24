@@ -149,8 +149,8 @@ text-shadow: 1px 1px 3px #323232;
 
 .group_shot {
 width: 90.5%;
-border-width: 2pxpx;
-border-radius: 10px;
+border-width: 0.2%;/*2px;*/
+border-radius: 1%;/*10px;*/
 border-style: solid;
 }
 
@@ -158,7 +158,7 @@ border-style: solid;
 
 .woodcut {
 float: left;
-margin: 10px;
+margin: 1% /*10px;*/
 }
 
 .mission_statment{
@@ -178,11 +178,11 @@ border-color: black;
 {
 background: #fff;
 opacity; 0.5;
-width: 428px;
+width: 44.583333%; /*428px;*/
 float: left;
-margin: 10px;
-border-width: 2px;
-border-radius: 10px;
+margin: 1%; /*10px;*/
+border-width: 0.2%; /*2px;*/
+border-radius: 1%; /*10px;*/
 border-style: solid;
 }
 
@@ -190,11 +190,11 @@ border-style: solid;
 {
 background: #fff;
 opacity; 0.5;
-width: 428px;
+width: 44.58333%; /*428px;*/
 float: left;
-margin: 10 20;
-border-width: 2px;
-border-radius: 10px;
+margin: 1% 2%; /* 10 20;*/
+border-width: 0.2%; /*2px;*/
+border-radius: 1%; /*10px;*/
 border-style: solid;
 }
 
@@ -209,7 +209,7 @@ margin-top: 1%;/*10px;*/
 .brad_mike .brad_bsg .brad_monatine .christian .jeff_shop .josh_longpoint
 {
 float:left;
- margin:2px;
+ margin: 0.2% /*2px;*/
 }
 
 .gallery_text{
@@ -220,10 +220,97 @@ clear: left;
 
 #article{
 background: #fff;
-opacity; 0.5;
-margin: 10px;
-border-width: 2pxpx;
-border-radius: 10px;
+margin: 1%; /* 10px;*/
+border-width: 0.2% /* 2px;*/
+border-radius: 1%; /* 10px;*/
 border-style: solid;
 }
+
+/*=Media Queries
+ ===============================================================*/
+
+/* Tablet Portrait size to standard 960 (Devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+img {
+max-width: 75%;
+}
+
+ 
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (Devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+img {
+max-width: 60%;
+}
+
+h1 h2 h3 h4 {
+display: none;
+}
+
+.about_heading
+{
+display: none;
+}
+
+.logo_text {
+display: none;
+}
+
+.logo {
+float: none;
+
+}
+
+. bradsbio .mikesbio {
+float: none;
+
+}
+
+
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+img {
+max-width: 60%;
+}
+
+.logo_text {
+display: none;
+}
+
+.logo {
+margin: 0 auto;
+}
+
+ .group_shot {
+display: none;
+}
+
+.mission_statment {
+margin: 0 auto;
+}
+
+. bradsbio .mikesbio {
+float: none;
+
+}
+
+ 
+.brad_mike .brad_bsg .brad_monatine .christian .jeff_shop .josh_longpoint
+{
+float: none;
+}
+
+}
+
+
+
+ 
 
