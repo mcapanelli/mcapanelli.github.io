@@ -1,0 +1,196 @@
+@charset "UTF-8";
+ 
+ /* ----------Main css for By The Sword ------------*/
+ 
+ body
+    {
+background-color: #000;
+font: 1em/1.5 "Helvetica Neue", Helvetica, sans-serif;
+line-height: 125%;
+padding: 1em;
+margin: 0 auto;
+text-align: center;
+}
+
+h1, h2, h3 {
+font-family:  "Didact Gothic", "Deutsch Gothic", sans-serif; 
+text-align: center;
+text-shadow: .063em .063em .063em #666;
+}
+
+img {
+border: .188em solid black;
+}
+
+p {
+font: 1em/1.5 strong;
+text-shadow: 1px 1px 1px #666;
+}
+
+ #container {
+ background-image: url("./images/parchment.png");
+ width: 93.75%;
+ margin: 0 auto; 
+ }
+
+header {
+width: 93.339026%; 
+padding: 1%;
+}
+
+
+/*------------------- Main Nav Elements ---------------------- */ 
+ 
+
+ ul {
+width: 96.296296%; 
+margin: 0 auto;
+background: #666;
+list-style-type: none;
+margin: 0;
+} 
+ 
+ li {
+ width: 24%; 
+ float: left;
+ list-style-type: none;
+ }
+ 
+nav a {
+ font-weight: bold;
+ display: block;
+ text-decoration: none;
+ background: #fff;
+ height: 1.875em;
+ line-height: 1.875em; 
+ text-align: center;
+ padding: 2px;
+ border: 1px solid #CCCCCC;
+ border-radius: 10px 5px;
+ -moz-box-shadow: .313em .313em .313em  #666; 
+ -webkit-box-sahdow: .313em .313em .313em #666;  
+ box-shadow: .313em .313em .313em #666;
+
+}
+a:link {
+color: black;
+
+}
+a:visited {
+color: gray;
+}
+a:hover {
+text-decoration: none;
+color: white;
+background-color: navy;
+}
+a:active {
+color: aqua;
+background-color: navy;
+}
+
+/*-------------- #home section css ----------------- */
+
+#about {
+   background-color: #A4A4A4;
+   width: 94.44%;
+   border: .10em solid black;
+   -moz-box-shadow: .313em .313em .313em  #666; 
+   -webkit-box-sahdow: .313em .313em .313em #666;  
+   box-shadow: .313em .313em .313em #666;
+   margin-top: 3.125em; 
+   margin-left: 1.250em; 
+   padding: 1%;
+}
+
+ 
+
+.licthy {
+float: left;
+margin: .2%;
+}
+
+ blockquote {
+ width: 14%; /*100px;*/
+ margin: 1%;
+ padding: 1%;
+ background: silver;
+ font-weight: bold;
+text-align: center;
+text-shadow: .063em .063em .063em #666;
+-moz-box-shadow:.313em .313em .313em #666;
+-webkit-box-sahdow: .313em .313em .313em #666;
+ box-shadow: .313em .313em .313em #666;
+ float: right;
+ }
+ 
+#who_is_mike {
+width: 88.8889%;
+margin: 1em 3em;
+padding: 1%; 
+ }
+ 
+.mike {
+margin-left: 30px;
+}
+
+ .poleaxe {
+ float: left;
+margin: .2%;
+}
+
+
+/*-------------- #article css ------------- */
+
+#what_i_teach {
+width: 88.8889%;
+margin: 1em 3em;
+padding: 1%; 
+ }
+ /*--------- I can't seem to get the columns to align right 
+ 
+ #columns {
+ -webkit-column-count: 3;
+ -moz-column-count: 3;
+ -moz-column-gap: 20px; 
+-webkit-column-gap: 20px; 
+column-gap: 20px;
+overflow: hidden;
+margin: 0 auto;
+ }
+ --------------------------------------------------------/*
+ 
+ #clear {
+ clear: both;
+ }
+ 
+/*--------------- #gallery secton css ----------------*/
+ 
+ #gallery {
+ width: 43%;
+ margin: 0 auto; /*10.666667%*/
+ padding: 3.367003%;
+ float: left;
+ }
+ 
+ 
+ /*--------------- #contact form css. I intend to add a contact form once we cover it in week 4 -----------------*/
+  aside {
+  width: 43%;
+  margin: 0 auto; /*10.666667%*/
+  padding: 3.367003%;
+  float: right;
+ }
+ 
+    
+/*----------------- # footer css --------------------*/
+ footer {
+ width: 100%;
+ background: #000;
+ clear: both;
+ }
+ 
+.footer_text {
+ color: #fff;
+ }
+ 
