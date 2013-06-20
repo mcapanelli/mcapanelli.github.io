@@ -372,9 +372,9 @@ display: none;
  }
  
  
- @media screen and (min-width: 460px) and (max-width: 739px) {
+ @media screen and (min-width: 570px) and (max-width: 739px) {
  
-  h2 {
+ h2 {
 font: 1.2em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
 text-align: center;
 text-shadow: 0.125em 0.125em 0.125em #666;
@@ -397,9 +397,6 @@ text-shadow: 0.063em 0.063em 0.063em #666
  display: none;
  }
  
- #main_nav {
- display: none;
- }
  
  #about {
    background-color: #A4A4A4;
@@ -450,13 +447,13 @@ display: none;
  
  }
   
- @media screen and (max-width: 459px) {
+ @media screen and (min-width: 320px;) and (max-width: 568px) {
  
   #tag_line {
  display: none;
  }
  
-   h2 {
+ h2 {
 font: 1.2em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
 text-align: center;
 text-shadow: 0.125em 0.125em 0.125em #666;
