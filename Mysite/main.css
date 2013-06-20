@@ -313,7 +313,7 @@ display: none;
  
  
   
- @media screen and (min-width: 740px) and (max-width: 767px) {
+ @media screen and (min-width: 739px) and (max-width: 767px) {
  
  h2 {
 font: 1.2em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
@@ -372,7 +372,7 @@ display: none;
  }
  
  
- @media screen and (min-width: 569px) and (max-width: 739px) {
+ @media screen and (min-width: 569px) and (max-width: 737px) {
  
  h2 {
 font: 1.2em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
@@ -397,10 +397,9 @@ text-shadow: 0.063em 0.063em 0.063em #666
  display: none;
  }
  
-  #main_nav {
+   #main_nav {
  display: none;
- } 
- 
+ }
  
  #about {
    background-color: #A4A4A4;
