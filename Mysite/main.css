@@ -520,7 +520,7 @@ display: none;
  -moz-column-gap: 4.357298%; /*20px; */
 -webkit-column-gap: 4.357298%; /* 20px; */
 column-gap:  1.25em; /*20px;*/
-/*overflow: hidden;*/
+overflow: hidden;
 border: 0.063em /*1px*/ solid #000;
 margin-left: 7%;
 Padding: 1%;
