@@ -6,7 +6,7 @@
 background-color: #000;
 font: 100%/1.5 "Helvetica Neue", Helvetica, sans-serif;
 line-height: 125%;
-padding: 1.663202% /(1em;*/
+padding: 1.663202%; 
 margin: 0 auto;
 text-align: center;
 }
@@ -159,7 +159,8 @@ padding: 1%;
  
  
 #mike {
- width: 66.66667%; /*600px;*/
+width: 66.66667%; /*600px;*/
+margin-left: 15%;
 }
 
  #poleaxe {
@@ -169,8 +170,8 @@ margin: 1.3%;
 }
 
  #CWpoleaxe {
- width: 60.120476% /*576px;*/
- margin: 1.3%;
+ width: 60.120476%; /*576px;*/
+ margin-left: 20% /* 200px; */
 }
 
 
@@ -184,8 +185,8 @@ padding: 1%;
  }
  
  #group_shot {
-  width: 60.120476% /*576px;*/
- margin: 1.3%;
+  width: 60.120476%; /*576px;*/
+ margin-left: 20% /*200px;*/
  }
  
  /*--------- I can't seem to get the columns to align right 
@@ -443,7 +444,7 @@ display: none;
  }
  
  #contact_form {
- width: 100%;
+ width: 85%;
  clear: both;
  }
  
@@ -511,15 +512,17 @@ display: none;
  }
  
   #columns {
+  width: 85%;
   display: block;
+  background-color: #fff;
  -webkit-column-count: 3;
  -moz-column-count: 3;
- -moz-column-gap: 4.357298% /*20px; */
--webkit-column-gap: 4.357298% /* 20px; */
-column-gap: 4.357298% /* 20px;*/
+ -moz-column-gap: 4.357298%; /*20px; */
+-webkit-column-gap: 4.357298%; /* 20px; */
+column-gap:  1.25em; /*20px;*/
 /*overflow: hidden;*/
-border: 1px solid #000;
-margin: 1%;
+border: 0.063em /*1px*/ solid #000;
+margin-left: 7%;
 Padding: 1%;
  }
  
@@ -532,7 +535,7 @@ display: none;
  }
  
  #contact_form {
- width: 100%
+ width: 85%;
  }
  
  
