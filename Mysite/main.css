@@ -81,26 +81,25 @@ nav a {
  text-align: center;
  padding: 1.25%; /*0.125em; 2px;*/
  border: 0.063em solid #CCCCCC;
- /*
-  border-radius: 10px 5px; ------- Removed button mod on nav but leaving the css in place. -----------
- -moz-box-shadow: .313em .313em .313em  #666; 
- -webkit-box-sahdow: .313em .313em .313em #666;  
- box-shadow: .313em .313em .313em #666;
------------------------------------------------------------------------ */
+ }
 
-}
+/*----------------------------------------------------------------------- */
+
+
 a:link {
 color: black;
-
 }
+
 a:visited {
 color: gray;
 }
+
 a:hover {
 text-decoration: none;
 color: white;
 background-color: navy;
 }
+
 a:active {
 color: aqua;
 background-color: navy;
@@ -189,18 +188,43 @@ padding: 1%;
  margin-left: 20% /*200px;*/
  }
  
- /*--------- I can't seem to get the columns to align right 
+ /*-------------------- Table CSS --------------------*/
  
- #columns {
- -webkit-column-count: 3;
- -moz-column-count: 3;
- -moz-column-gap: 20px; 
--webkit-column-gap: 20px; 
-column-gap: 20px;
-overflow: hidden;
-margin: 0 auto;
+ table {
+  border: 0.063em solid #000;
+  width: 60.120476%; 
+  margin-left: 20%; 
  }
- /*--------------- #gallery secton css ----------------*/
+ 
+ td {
+ border: 0.063em solid #000;
+ padding: 0.3em;
+ }
+ 
+ th {
+ text-align: center;
+ background-color: #A4A4A4;
+ color: #fff;
+ padding: 0.3em;
+ }
+ 
+ .odd {
+ background-color: #fff;
+ color: #000;
+ }
+ 
+ .even {
+ background-color: #000;
+ color: #fff;
+ }
+ 
+ /*-------- Clear CSS ------------------ */
+ 
+ #clear {
+ margin: 2.114165%; /*20px;*/
+ clear: both;
+ }
+ /*----------------------- Gallery CSS -----------------*/
  
  #gallery {
  width: 43%;
@@ -235,30 +259,111 @@ margin: 0 auto;
  
  /*--------------- #contact form css. I intend to add a contact form once we cover it in week 4 -----------------*/
   aside {
-  width: 43%;
-  margin: 0 auto; /*10.666667%*/
-  padding: 3.367003%;
+  width: 40%; /*378px*/
+  background-color: #A4A4A4;
+  border: .10em solid black;
+  border-radius: 10px;
+  text-align: center;
+  text-shadow: .063em .063em .063em #666;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-shadow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+  margin: 10px; /*10.666667%*/
+  padding-right: 40px; /*3.367003%;*/
   float: right;
  }
-/* 
-  #contact_form a {
-  font-size: 1em;
- font-weight: bold;
-  display: block;
- text-decoration: none;
- background: #fff;
- height: 1.875em;
- line-height: 1.875em; 
- text-align: center;
- padding: 1.25%; 0.125em; 2px;
- border: 0.063em solid #CCCCCC;
- border-radius: 10px 5px; 
- -moz-box-shadow: .313em .313em .313em  #666; 
- -webkit-box-sahdow: .313em .313em .313em #666;  
- box-shadow: .313em .313em .313em #666;
+ 
+ form {
+ text-align: right;
+ padding: 0.188em; /*3px;*/
  }
- */
+ 
+ input:focus {
+ background: #00ffff;
+ }
+ 
+ #name_first {
+   width: 42%; /*175px;*/
+   border: 0.063em solid black;
+   border-radius: 0.188em;
+     text-shadow: .063em .063em .063em #666;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-shadow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+    }
     
+     #name_last {
+    width: 42%; /*175px;*/
+   border: 0.063em solid black;
+   border-radius: 0.188em;
+     text-shadow: .063em .063em .063em #666;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-shadow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+    }
+    
+     #phone {
+    width: 42%; /*175px;*/
+   border: 0.063em solid black;
+   border-radius: 0.188em;
+     text-shadow: .063em .063em .063em #666;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-shadow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+    }
+    
+     #email {
+   width: 42%; /*175px;*/
+   border: 0.063em solid black;
+   border-radius: 0.188em;
+     text-shadow: .063em .063em .063em #666;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-shadow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+    }
+    
+     #comments {
+     width: 79.681275%; /* 400px;*/
+     height: 46.044625%; /* 227px;*/
+     margin-left: 3.585657%; /*18px;*/
+   border: 0.063em solid black;
+   border-radius: 0.188em;
+   text-shadow: .063em .063em .063em #666;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-shadow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+    }
+   
+ 
+ 
+ 
+ #send_button {
+ color: #000;
+ cursor:pointer; 
+ font-size: 1em;
+ width: 90px;
+ height: 30px;
+ border: 1px solid black;
+ border-radius: 10px;
+  -moz-box-shadow:.313em .313em .313em #666;
+  -webkit-box-sahdow: .313em .313em .313em #666;
+  box-shadow: .313em .313em .313em #666;
+ margin: 3px;
+ padding: 0;
+ 
+}
+
+	
+   input#send_button:hover, input#send_button:focus {
+	background-color : #00ffff;  
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+	}
+ 
+
+ 
+ 
 /*----------------- # footer css --------------------*/
  footer {
  width: 100%;
@@ -528,6 +633,10 @@ Padding: 1%;
  
  #sign_up {
  display: block;
+ }
+ 
+ #table {
+ display: none;
  }
  
  #gallery {
