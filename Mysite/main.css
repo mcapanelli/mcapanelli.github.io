@@ -191,6 +191,7 @@ padding: 1%;
  /*-------------------- Table CSS --------------------*/
  
  table {
+ border-collapse: collapse;
   border: 0.063em solid #000;
   width: 60.120476%; 
   margin-left: 20%; 
