@@ -1,16 +1,27 @@
-@charset "UTF-8";
- 
- /* ----------Global Elements for Wilson's BBQ------------*/
- 
- body {
-background-color: #fff;
-font: 100%/1.5 "Helvetica Neue", Helvetica, sans-serif;
-line-height: 125%;
-padding: 1.663202%; 
-margin: 0 auto;
-text-align: center;
-}
+/*
+Responsive 996px grid system ~ Grid CSS.
+Copyright 2013, Josh Cope
 
+12 Columns ~ Margin left: 13px ~ Margin right: 13px
+
+Based on the 960.gs grid system - http://960.gs/
+by Nathan Smith
+
+Licensed under GPL and MIT
+*/
+
+/* =============================================================================
+   Base 966px Grid
+   ========================================================================== */
+   
+	body {min-width: 996px;}
+
+	/* Container */
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 996px;
+	}
 h1 {
 font: 2em/1.5  "Didact Gothic", "Deutsch Gothic", sans-serif; 
 text-align: center;
@@ -39,105 +50,6 @@ text-align: left;
 font: 1em/1.5 strong;
 text-shadow: 0.063em 0.063em 0.063em #666  
 }
-
- #container {
- background-image: url("../images/parchment.png");
- width: 91.601256%;
- margin: 0 auto; 
- overflow: hidden;
- }
-
-header {
-width: 93.339026%; 
-padding: 1%;
-}
-
-#logo {
-width: 58.333333%; /*525px;*/
-margin-right: 0 auot;
-float: none;
-}
-
-
-/*------------------- Main Nav Elements ---------------------- */ 
- 
-
- ul {
-width: 96.296296%; 
-margin: 0 auto;
-background: #666;
-list-style-type: none;
-margin: 0 auto;
-} 
- 
- li {
- width: 24.09090%; 
- float: left;
- list-style-type: none;
- }
- 
-nav {
- font-size: 1em;
- font-weight: bold;
- display: block;
- text-decoration: none;
- background: #fff;
- height: 1.875em;
- line-height: 1.875em; 
- text-align: center;
- padding: 1.25%; /*0.125em; 2px;*/
- border: 0.063em solid #CCCCCC;
- }
-
-/*----------------------------------------------------------------------- */
-
-
-a:link {
-color: black;
-}
-
-a:visited {
-color: gray;
-}
-
-a:hover {
-text-decoration: none;
-color: white;
-background-color: navy;
-}
-
-a:active {
-color: aqua;
-background-color: navy;
-}
-
-/*----------------- # footer css --------------------*/
- footer {
- width: 100%;
- background: #000;
- clear: both;
- margin: 0 auto;
- padding: 0.311203%; /* 3px;*/
- }
- 
-.footer_text {
- color: #fff;
- }
- 
-
-/* =============================================================================
-   Base 966px Grid
-   ========================================================================== */
-   
-	body {min-width: 996px;}
-
-	/* Container */
-	.container {
-		margin-left: auto;
-		margin-right: auto;
-		width: 996px;
-	}
-
 	/* Global */
 	.grid_1,
 	.grid_2,
