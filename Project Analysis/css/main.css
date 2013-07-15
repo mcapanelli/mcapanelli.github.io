@@ -3,7 +3,7 @@
  /* ----------Main css for Project Analysis ------------*/
  
  body {
- background-color: #fff
+ background-color: #000;
  font: 100%/1.5 "Helvetica Neue", Helvetica, sans-serif;
 line-height: 125%;
 padding: 1.663202%; 
@@ -11,8 +11,8 @@ margin: 0 auto;
 text-align: center;
 }
  
-#container {
-    background-color: 
+.container {
+    background-color: #C0C0C0;
     width:97.389558%;
 	margin-left: auto;
 	margin-right: auto;
@@ -21,39 +21,42 @@ text-align: center;
 
 }
 h1 {
-font: 2em/1.5  "Didact Gothic", "Deutsch Gothic", sans-serif; 
+font: 2em/1.5  "Helvetica Neue", Helvetica, sans-serif; 
 text-align: center;
 text-shadow: 0.188em 0.188em 0.188em #666;
 }
 
 h2 {
-font: 1.5em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
+font: 1.5em/1.5 "Helvetica Neue", Helvetica, sans-serif; 
 text-align: center;
 text-shadow: 0.125em 0.125em 0.125em #666;
 }
 
 h3 {
-font: 1.3em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
+font: 1.3em/1.5 "Helvetica Neue", Helvetica, sans-serif; 
 text-align: center;
 text-shadow: 0.125em 0.125em 0.125em #666;
 }
 
  
 p {
-text-align: left;
+text-align: center;
 font: 1em/1.5 strong;
+margin: 0.625em; /*10px;*/
+padding: 0.313em; /* 5px;*/
 text-shadow: 0.063em 0.063em 0.063em #666  
 }
 
 header {
-width: 93.339026%; 
+width: 93.339026%;
+margin: 0 auto; 
 padding: 1%;
 }
 
 #site_intent{
    background-color: #A4A4A4;
-   width: 92.5%;
-   border: .10em solid black;
+   width: 80%;
+   border:.10em solid black;
    border-radius: 0.625em 0.313em; /*10px 5px;*/
    -moz-box-shadow: .313em .313em .313em  #666; 
    -webkit-box-sahdow: .313em .313em .313em #666;  
@@ -63,7 +66,8 @@ padding: 1%;
    padding: 1.5%;
 }
 
-#site_intent {
+ 
+#goals_for_redesign {
    background-color: #A4A4A4;
    width: 92.5%;
    border: .10em solid black;
@@ -76,18 +80,12 @@ padding: 1%;
    padding: 1.5%;
  }
  
-
-#goals_for_redesign {
-   background-color: #A4A4A4;
-   width: 92.5%;
-   border: .10em solid black;
-   border-radius: 0.625em 0.313em; /*10px 5px;*/
-   -moz-box-shadow: .313em .313em .313em  #666; 
-   -webkit-box-sahdow: .313em .313em .313em #666;  
-   box-shadow: .313em .313em .313em #666;
-   margin-top: 3.125em; 
-   margin-left: 1.250em; 
-   padding: 1.5%;
+ ul {
+ width: 40%;
+ list-style-type: none;
+ margin-left: 28%;
+ border: .10em solid black;
+ border-radius: 10px 5px;
  }
  
  #competitive_analysis {
@@ -108,7 +106,7 @@ padding: 1%;
   border-collapse: collapse;
   border: 0.063em solid #000;
   width: 60.120476%; 
-  margin-left: 20%; 
+  margin: 0 auto; 
  }
  
  td {
@@ -133,7 +131,7 @@ padding: 1%;
  color: #fff;
  }
  
- #target_audience{
+ #target_audience {
     background-color: #A4A4A4;
    width: 92.5%;
    border: .10em solid black;
@@ -146,13 +144,12 @@ padding: 1%;
    padding: 1.5%;
  }
  
-   #columns {
-  width: 40%;
+ #columns {
+  width: 33%;
   float: left;
-  /*display: block;*/
-  background-color: #fff;
- -webkit-column-count: 3;
- -moz-column-count: 3;
+  display: block;
+  -webkit-column-count: 2;
+ -moz-column-count: 2;
  -moz-column-gap: 4.357298%; /*20px; */
 -webkit-column-gap: 4.357298%; /* 20px; */
 column-gap:  1.25em; /*20px;*/
@@ -162,6 +159,10 @@ margin: 10px 5px 10px 10px;
 Padding: 1%;
  }
  
+ #jane{
+ width: 33%
+ float: left;
+ }
  
  
 
