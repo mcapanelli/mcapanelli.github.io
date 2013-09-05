@@ -1,62 +1,9 @@
  @charset "UTF-8";
  
- /* ----------Main css for redesign project ------------*/
-  
-  body {
- background-color: #fff
- font: 100%/1.5 "Helvetica Neue", Helvetica, sans-serif;
-line-height: 125%;
-padding: 1.663202%; 
-margin: 0 auto;
-/*text-align: center;*/
-}
- 
-#container {
-    background-color: 
-    width:97.389558%;
-	margin-left: auto;
-	margin-right: auto;
-		 
-	}
-
-}
-h1 {
-font: 2em/1.5  "Didact Gothic", "Deutsch Gothic", sans-serif; 
- }
-
-h2 {
-font: 1.5em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
- }
-
-h3 {
-font: 1.3em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
- }
-
- 
-p {
- font: 1em/1.5 strong;
-  }
-
-header {
-width: 93.339026%; 
-padding: 1%;
-}
-
-/*----------------- # footer --------------------*/
- footer {
- width: 100%;
- /*background: #000;*/
- clear: both;
- margin: 0 auto;
- padding: 0.311203%; /* 3px;*/
- }
- 
-/*.footer_text {
- color: #fff;
- }
- 
- */
-
+/* ---- LAYOUT ---- */
+/* ---- NAVIGATION ---- */
+/* ---- TYPOGRAPHY ---- */
+/* ---- MISC ---- */
  
  
  
