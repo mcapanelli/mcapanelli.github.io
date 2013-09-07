@@ -8,10 +8,9 @@
      line-height: 125%;
      padding: 1.663202%; 
      margin: 0 auto;
-      
-}
+ }
  
-#container {
+ #container {
      background-image: -ms-linear-gradient(bottom, #FCFCFC 0%, #21BFEF 100%);
      background-image: -moz-linear-gradient(bottom, #FCFCFC 0%, #21BFEF 100%);
      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FCFCFC), color-stop(1, #21BFEF));
@@ -19,10 +18,8 @@
      width:97.389558%;
 	 margin: 0 auto; /*1em;*/
 	 text-align: center;
-		 
-	}
+ }
 
-}
 h1 {
 font: 2em/1.5  "Didact Gothic", "Deutsch Gothic", sans-serif; 
 text-align: center;
@@ -73,9 +70,7 @@ margin-left: 1.875em; /*30px;*/
    padding: 1.5%;
 }
 
- }
- 
- #competitive_analysis {
+#competitive_analysis {
    background-color: #A4A4A4;
    width: 92.5%;
    border: .10em solid black;
@@ -83,8 +78,14 @@ margin-left: 1.875em; /*30px;*/
    -moz-box-shadow: .313em .313em .313em  #666; 
    -webkit-box-sahdow: .313em .313em .313em #666;  
    box-shadow: .313em .313em .313em #666;
-   margin: 0 auto; 
-  /* margin-left: 1.250em; */
+   margin: 20px; 
+   padding: 1.5%;
+ }
+ 
+ article {
+   background-color: #A4A4A4;
+   width: 92.5%;
+   margin: 1em; 
    padding: 1.5%;
  }
  
@@ -141,15 +142,12 @@ margin-left: 1.875em; /*30px;*/
    -moz-box-shadow: .313em .313em .313em  #666; 
    -webkit-box-sahdow: .313em .313em .313em #666;  
    box-shadow: .313em .313em .313em #666;
+   margin-top: 65px;
    margin-right: 1.5em;  
    text-align: center;
    padding: 1.5%;
    overflow: hidden;
-   float: right;
- }
- 
- #clear {
- clear: both;
+   /*float: right;*/
  }
  
 /*----------------- # footer css --------------------*/
