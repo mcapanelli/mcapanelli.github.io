@@ -271,7 +271,7 @@ margin-bottom: 20px;
 	display: none;
 }
 
-@media screen and (max-width: 780px) and (min-width: 601px){
+@media screen and (max-width: 780px) and (min-width: 768px){
 
 	#menu-wrap {
 		position: relative;
@@ -372,11 +372,12 @@ margin-bottom: 20px;
 
 }
 
-@media screen and (max-width: 600px) and (min-width: 380px) {
-	#menu {
+@media screen and (max-width: 767) and (min-width: 380px) {
+
+
+#menu {
 		display: block;
 	}
-}	
 
 /* iPad */
 .no-transition {
@@ -389,6 +390,22 @@ margin-bottom: 20px;
 #menu li:hover > .no-transition {
 	display: block;
 }
+
+footer {
+display: none;
+/* width: 100%;
+ height: 9em; 150px;
+ background-color: #000;
+ color: #fff;
+ Text-align: center;
+}
+
+ 
+
+}
+
+
+ 
  
  
  
