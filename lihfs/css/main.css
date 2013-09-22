@@ -93,8 +93,6 @@ column-count:3;
 margin-right: 10.938em; /* 175px;*/
 }
 
-
-
 #name {
 margin-right: 10.938em;
 }
@@ -679,7 +677,6 @@ form {
 		border: 0;
 	}		
 
-}
 
 #menu li:hover > .no-transition {
 	display: block;
