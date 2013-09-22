@@ -48,22 +48,50 @@ text-align: center;
 margin: 0 auto;
 }
 
-img {
-    vertical-align: middle;
+#main_copy {
+margin: 1.250em 0 1.250em 1.250em;  /*20px 0 20px 20px;*/
 }
 
- footer {
+.mike, .brad {
+    /*vertical-align: middle;*/
+     border: 0.063em solid #000000;
+}
+
+#group_shot {
+border: 0.063em solid #000000;
+}
+
+#title_classes {
+margin: 20px 87px 0 0;
+}
+
+#classes_copy {
+margin-left: 6.250em /*100px;*/
+}
+
+footer {
+-moz-column-count:3; 
+-webkit-column-count:3; 
+column-count:3;
  width: 100%;
- height: 12em; /*150px;*/
+ height: 9em; /*150px;*/
  background-color: #000;
  color: #fff;
- 
- }
+ Text-align: center;
+}
+
+#title_instructors{
+margin-right: 10.938em; /* 175px;*/
+}
+
+#name {
+margin-right: 10.938em;
+}
  
 /* ---- NAVIGATION ---- */
 
 nav {
-margin: 20px 50px 10px 0;
+margin: 1.25em 3.125em 0.625em 0; /*20px 50px 10px 0;*/
 }
  
 #menu, #menu ul {
@@ -73,11 +101,11 @@ margin: 20px 50px 10px 0;
 }
 
 #menu {
-	width: 97%;
+	width: 98%;
 	margin; 0 auto;
 	border: 1px solid #222;
 	background-color: #111;
-	background-image: linear-gradient(#444, #111);
+	background-image: linear-gradient (#444, #111);
 	border-radius: 6px;
 	box-shadow: 0 1px 1px #777;
 }
@@ -231,6 +259,135 @@ $(function() {
 width: 90%;
 margin: 0 auto;
 border: #000, 10px;
+}
+
+.clear {
+margin-bottom: 20px;
+
+}
+
+
+#menu-trigger {
+	display: none;
+}
+
+@media screen and (max-width: 780px) and (min-width: 601px){
+
+	#menu-wrap {
+		position: relative;
+	}
+
+	#menu-wrap * {
+		box-sizing: border-box;
+	}
+
+	#menu-trigger {
+		display: block;  
+		height: 40px;
+		line-height: 40px;
+		cursor: pointer;		
+		padding: 0 0 0 35px;
+		border: 1px solid #222;
+		color: #fafafa;
+		font-weight: bold;
+		background-color: #111;
+                /* Multiple backgrounds here, the first is base64 encoded */
+		background: url(data:image/png;base64,iVBOR...) no-repeat 10px center, linear-gradient(#444, #111);
+		border-radius: 6px;
+		box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+	}
+
+	#menu {
+		margin: 0; padding: 10px;
+		position: absolute;
+		top: 40px;
+		width: 100%;
+		z-index: 1;
+		display: none;
+		box-shadow: none;		
+	}
+
+	#menu:after {
+		content: '';
+		position: absolute;
+		left: 25px;
+		top: -8px;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-bottom: 8px solid #444;
+	}	
+
+	#menu ul {
+		position: static;
+		visibility: visible;
+		opacity: 1;
+		margin: 0;
+		background: none;
+		box-shadow: none;				
+	}
+
+	#menu ul ul {
+		margin: 0 0 0 20px !important;
+		box-shadow: none;		
+	}
+
+	#menu li {
+		position: static;
+		display: block;
+		float: none;
+		border: 0;
+		margin: 5px;
+		box-shadow: none;			
+	}
+
+	#menu ul li{
+		margin-left: 20px;
+		box-shadow: none;		
+	}
+
+	#menu a{
+		display: block;
+		float: none;
+		padding: 0;
+		color: #999;
+	}
+
+	#menu a:hover{
+		color: #fafafa;
+	}	
+
+	#menu ul a{
+		padding: 0;
+		width: auto;		
+	}
+
+	#menu ul a:hover{
+		background: none;	
+	}
+
+	#menu ul li:first-child a:after,
+	#menu ul ul li:first-child a:after {
+		border: 0;
+	}		
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 380px) {
+	#menu {
+		display: block;
+	}
+}	
+
+/* iPad */
+.no-transition {
+	transition: none;
+	opacity: 1;
+	visibility: visible;
+	display: none;  		
+}
+
+#menu li:hover > .no-transition {
+	display: block;
 }
  
  
