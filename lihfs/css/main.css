@@ -254,7 +254,7 @@ margin: 1.25em 3.125em 0.625em 0; /*20px 50px 10px 0;*/
 	border-radius: 0 0 3px 3px;
 }
 
-$(function() {
+/*$(function() {
   if ($.browser.msie && $.browser.version.substr(0,1)<7)
   {
 	$('li').has('ul').mouseover(function(){
@@ -263,7 +263,8 @@ $(function() {
 		$(this).children('ul').css('visibility','hidden');
 		})
   }
-}); 
+});
+*/ 
 /* ---- MISC ---- */
 
 .clear {
