@@ -19,7 +19,10 @@
 	  
 	  
 
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	     <script src="js/modernizr-2.6.2.min.js"></script>
+		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10/jquery.min.js"></script>
+	     <script type="text/jquery" src="js/script.js"></script> 
+	 
 	
 </head>
  <body>
@@ -52,23 +55,59 @@
     </nav>
    </header>
    <h2>Contact LIHFS</h2>
-   <h3>Please fill out the form below to get in touch with the LIHFS.</h3>
-   
-   <p class="grid_8">A form will take the place of this paragraph when the class moves to forms</p>
+    <blockquote id="quote" class="grid_3">
+        "Princes and Lords learn to survive with this art, in earnest and in play. 
+But if you are fearful, then you should not learn to fence. 
+Because a despondent heart will always be defeated, regardless of all skill."
+<br>
+<em>~Fechtmeister Sigmund Ringeck, 1440~</em>
+      </blockquote>
+      <section id="contact_form" class="grid_8">
+  <h3> If your ready to join us or you'd just like to leave a comment please fill out the form below</h3>
+<form method="post" action="MAILTO:hongkongfuey@me.com" >
+  <div>
+    <label for="name_first">First Name</label>
+    <input type="text" name="name_first" id="name_first"/>
+  </div>
+  <div>
+    <label for="name_last">Last Name</label>
+    <input type="text" name="name_last" id="name_last"/>
+  </div>
+   <div>
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="phone"/>
+    </div>
+     <div>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email"/>
+    </div>
+    <div>
+      <input type="checkbox" name="over_18" value="over_18"> 
+      <label for="over_18">Please check this box if you are over 18 years of age</label>
+      </div>
+      <div>
+     <label for="comments">Comments</label>
+    <textarea rows="15" cols="50" type="text" name="comments" id="comments"></textarea>
+    </div>
+    <input type="submit" value="Submit" id="send_button">
+  </form>
+  </section>
+ <div id="clear"></div>
   <footer class="grid_12">
-  <p class="grid_4"> &copy;LIHFS, all rights reserved
+  <p class="grid_4"> &copy; 2013 L.I.H.F.S., all rights reserved
   </p>
-  <p class="grid_4">LIHFS is a proud member of</p>
-  <p class="grid_3">find us on</p>
-  <p class="grid_4">Site built and maintained by M.Capanelli</p>
-  <p class="grid_3"><img class="grid_1" src="img/hemac_logo-01.gif" alt="HEMAC"/><img class="grid_1" src="img/hemaa_logo1.jpg" alt="Hema Allience"/></p>
-<p class="grid 3"><a href="http://www.facebook.com/LIHFS"><img class="grid_1" src="img/facebook-button-1.jpg" alt="Facebook"/></a>
-  <a href="http://www.twitter.com"><img class="grid_1" src="img/twitter_buttons.jpg" alt="Twitter Button"/></a>
-  <a href="http://www.meetup.com"><img class="grid_1" src="img/meetup_buttons.jpg" alt="Meetup button"/></a>
+   <p class="grid_4">Site built and maintained by M.Capanelli</p>
+   
+    <p class="grid_4">LIHFS is a proud member of</p>
+   <p><img class="grid_1" src="img/hemac_logo-01.gif" alt="HEMAC"/><img class="grid_1" src="img/hemaa_logo1.jpg" alt="Hema Allience"/></p>
+   <p class="grid_3">find us on</p>
+   <p id="social" class="grid 3"><a href="http://www.facebook.com/LIHFS"><img class="grid_1" src="img/white_facebook.png" alt="Facebook"/></a>
+     <a href="http://www.twitter.com"><img class="grid_1" src="img/white_twitter_bird.png" alt="Twitter Button"/></a>
+     <a href="http://vimeo.com"><img class="grid_1" src="img/white_vimeo.png" alt="Meetup button"/></a>
    </p>
-     <div class="push"></div>
+     <div class="push"></p>
 </div>
- </footer>
+ </footer> 
   </div>
  </body>
 </html>
