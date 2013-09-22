@@ -43,6 +43,7 @@ img.center {
 p {
 text-align: left;
 font: 1em/1.5 strong;
+padding: 5px;
 }
 
 article {
