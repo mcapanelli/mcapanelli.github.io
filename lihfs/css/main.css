@@ -508,13 +508,13 @@ display: none;
 
 }
 
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
 	#menu {
 		display: block !important;
 	}
 }	
 
-/* iPad */
+iPad 
 .no-transition {
 	transition: none;
 	opacity: 1;
@@ -527,7 +527,7 @@ display: none;
 }
 
 }
-
+*/
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 
