@@ -403,7 +403,7 @@ display: none;
  ===============================================================*/
 
  /* Mobile Landscape Size to Tablet Portrait (Devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 
 #menu-trigger {  
 	display: block;
