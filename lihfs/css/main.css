@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 @improt url(normalize.css)
-@improt url (base.css)
-@improt url (grid.css)
+
  
 /* ---- LAYOUT ---- */
 
@@ -11,15 +10,12 @@
  font: 100%/1.5 "Helvetica Neue", Helvetica, sans-serif;
 line-height: 125%;
 padding: 1.663202%; 
-margin: 0 auto;
-}
+ }
  
 #container {
     background-color: #fff;
-   /* width:97.389558%;*/
-	margin; 0 auto;
+    margin: 0 auto;
 	text-align: center;
-	
 	}
 
 h1 {
@@ -37,10 +33,11 @@ font: 1.3em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif;
 text-align: center;
  }
  
-/* img {
- width: 100%;
- }
- */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
  
 p {
@@ -57,18 +54,14 @@ margin: 0 auto;
 margin: 1.250em 0 1.250em 1.250em;  /*20px 0 20px 20px;*/
 }
 
-.mike, .brad {
-    border: 0.063em solid #000000;
+#name_mike, #name_brad {
+    margin-right: 10em; 
 }
 
 #group_shot,  #main_image {
 border: 0.063em solid #000000;
 }
 
-#talhoffer {
-border: 0.063em solid #000000;
-margin-left: 400px;
-}
 
 #title_classes {
 margin: 1.25em 5.438em 0 0; /*20px 87px 0 0;*/
@@ -111,10 +104,8 @@ margin: 1.25em 3.125em 0.625em 0; /*20px 50px 10px 0;*/
 
 #menu {
 	width: 98%;
-	margin; 0 auto;
 	border: 1px solid #222;
 	background-color: #111;
-	background-image: linear-gradient (#444, #111);
 	border-radius: 6px;
 	box-shadow: 0 1px 1px #777;
 }
@@ -129,9 +120,6 @@ margin: 1.25em 3.125em 0.625em 0; /*20px 50px 10px 0;*/
 	clear: both;
 }
 
-#menu {
-	zoom:1;
-}
 
 #menu li {
 	float: left;
@@ -154,7 +142,7 @@ margin: 1.25em 3.125em 0.625em 0; /*20px 50px 10px 0;*/
 	color: #fafafa;
 }
 
-*html #menu li a:hover { /* IE6 only */
+#menu li a:hover { /* IE6 only */
 	color: #fafafa;
 }
 
@@ -269,7 +257,6 @@ margin-bottom: 20px;
   #contact_form {
   width: 50%; /*378px*/
   background-color: #68A2E3;
-  opacity: 50%;
   border: .10em solid black;
   border-radius: 0.625em;  /*10px;*/
   text-align: left;
@@ -412,9 +399,7 @@ margin-bottom: 20px;
 		color: #fafafa;
 		font-weight: bold;
 		background-color: #111;
-                /* Multiple backgrounds here, the first is base64 encoded */
-		background: url(data:image/png;base64,iVBOR...) no-repeat 10px center, linear-gradient(#444, #111);
-		border-radius: 6px;
+        border-radius: 6px;
 		box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
 	}
 
@@ -550,9 +535,7 @@ width: 100%;
 		color: #fafafa;
 		font-weight: bold;
 		background-color: #111;
-                /* Multiple backgrounds here, the first is base64 encoded */
-		background: url(data:image/png;base64,iVBOR...) no-repeat 10px center, linear-gradient(#444, #111);
-		border-radius: 6px;
+        border-radius: 6px;
 		box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
 	}
 
