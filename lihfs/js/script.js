@@ -16,7 +16,7 @@ if (isiPhone) $('#menu ul').addClass('no-transition');
    function initialize() {
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
+          center: new google.maps.LatLng(44.798163, -73.464417),
           zoom: 8,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
