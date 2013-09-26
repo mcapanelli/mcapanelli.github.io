@@ -588,7 +588,7 @@ display: none;
 width: 100%;
 }
 
-.button_fence {
+#Theme-A, #like {
 display: none;
 }
 	
@@ -734,9 +734,10 @@ display: none;
 width: 97.5%;
 }
 
-.button_fence {
+#Theme-A, #like {
 display: none;
 }
+	
 
 	
 
