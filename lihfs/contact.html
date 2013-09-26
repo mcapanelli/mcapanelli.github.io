@@ -17,15 +17,16 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	  
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
   <body>
-<div class="container">  
-<Header class="grid_12">
+<div class="container Grid_12">  
+<Header class="grid_11">
        <div class="grid_6">
-     <a href="index.html"><img src="img/LIHFSlogo_03.png" alt="lihfs sword logo"/></a>
+     <a href="index.html" class"pull_1"><img src="img/LIHFSlogo_03.png" alt="lihfs sword logo"/></a>
      </div>
-  <!---main navigation for the site -->
-  <nav id="menu-wrap" class="grid_10"> 
+   <!---main navigation for the site -->
+  <nav id="menu-wrap" class="grid_11"> 
 <ul id="menu">
 	<li><a href="index.html">Home</a></li>
 	<li>
@@ -47,17 +48,21 @@
     <li><a href="contact.html">Contact Us</a></li>
 </ul>
     </nav>
-   </header>
-   <h2>Contact LIHFS</h2>
-    <blockquote id="quote" class="grid_3">
+     </header>
+       <div id="map_canvas" class="grid_4"></div>
+      <div id="conatct" class="grid_3"><p>If you'd like to join a class or have any question, please <a href="">email us</a><br> For directions to our location please 
+      click on the map</p>
+      </div>
+    <blockquote id="quote" class="grid_4">
         "Princes and Lords learn to survive with this art, in earnest and in play. 
 But if you are fearful, then you should not learn to fence. 
 Because a despondent heart will always be defeated, regardless of all skill."
 <br>
 <em>~Fechtmeister Sigmund Ringeck, 1440~</em>
-      </blockquote>
-      <section id="contact_form" class="grid_8">
-  <h3> If your ready to join us or you'd just like to leave a comment please fill out the form below</h3>
+</blockquote>
+    
+   <!--  <section id="contact_form" class="grid_4">
+     <h3> If your ready to join us or you'd just like to leave a comment please fill out the form below</h3>
 <form method="post" action="MAILTO:hongkongfuey@me.com" >
   <div>
     <label for="name_first">First Name</label>
@@ -86,6 +91,7 @@ Because a despondent heart will always be defeated, regardless of all skill."
     <input type="submit" value="Submit" id="send_button">
   </form>
   </section>
+  -->
     <div id="clear"></div>
   <footer class="grid_12">
    <p id="copy" class="grid_4"> &copy; 2013 L.I.H.F.S., all rights reserved</p>

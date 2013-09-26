@@ -13,30 +13,13 @@ if (isiPad) $('#menu ul').addClass('no-transition');
 var isiPhone = navigator.userAgent.match(/iPhone/i) != null;
 if (isiPhone) $('#menu ul').addClass('no-transition'); 
 
-function formValidator(){
-	// Make quick references to our fields
-	var firstname = document.getElementById('firstname');
-	var lastname = document.getElementById('lastname');
-	var addr = document.getElementById('addr');
-	var zip = document.getElementById('zip');
-    var email = document.getElementById('email');
-	
-	// Check each input in the order that it appears in the form!
-	if(isAlphabet(firstname, "Please enter only letters for your name")){
-		if(isAlphanumeric(addr, "Numbers and Letters Only for Address")){
-			if(isNumeric(zip, "Please enter a valid zip code")){
-				if(madeSelection(state, "Please Choose a State")){
-					if(lengthRestriction(username, 6, 8)){
-						if(emailValidator(email, "Please enter a valid email address")){
-							return true;
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	
-	return false;
-	
-}
+   function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
