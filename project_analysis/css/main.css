@@ -23,13 +23,13 @@
 h1 {
 font: 2em/1.5  "Didact Gothic", "Deutsch Gothic", sans-serif; 
 text-align: center;
-text-shadow: 0.188em 0.188em 0.188em #666;
+/*text-shadow: 0.188em 0.188em 0.188em #666;*/
 }
 
 h2 {
 font: 1.5em/1.5 "Didact Gothic", "Deutsch Gothic", sans-serif; 
 text-align: center;
-text-shadow: 0.125em 0.125em 0.125em #666;
+/*text-shadow: 0.125em 0.125em 0.125em #666;*/
 }
 
 h3 {
