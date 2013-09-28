@@ -510,6 +510,10 @@ display: none;
 #main_columns {
 display: none;
 }
+
+#classes_copy {
+margin: 0 auto;
+}
 	
 
 }
@@ -660,7 +664,10 @@ display: none;
 #main_columns {
 display: none;
 }
-	
+
+#classes_copy {
+margin: 0 auto;
+}	
 
 	
 }
