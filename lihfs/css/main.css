@@ -82,6 +82,12 @@ column-count:3;
 margin-right: 10.938em;
 }
 
+#map {
+width:400px;
+height:450px;
+margin: 20px;
+overflow: hidden;  
+}
  
  #like {
 Margin-left: 110px;
