@@ -116,8 +116,8 @@ margin: 0.875em;
 }
  
  #main_columns {
- text-align: center;
- padding: 0.063em;/*1px;*/
+ text-align: left;
+ padding: 0.063em; /*1px;*/
  margin: 0 0 1em 0;
  overflow: hidden;
 -moz-column-count:3;  
