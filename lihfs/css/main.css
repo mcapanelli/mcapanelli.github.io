@@ -318,13 +318,7 @@ margin-bottom: 20px;
  
   /*---- Google Map ----*/
  
- #map_canvas {
-        height: 400px;
-        margin: 10px;
-        /*background-color: #CCC;*/
-      }
-    
-#contact {
+ #contact {
       margin-bottom: 60px;
       }
 
