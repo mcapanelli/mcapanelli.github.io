@@ -96,6 +96,16 @@ Margin-left: 110px;
  text-align: center;
  }
  
+ #photos {
+ -moz-column-count:3; 
+-webkit-column-count:3; 
+column-count:3;
+}
+
+#video_1, #video_2, #video_3 {
+margin: 0.875em;
+}
+ 
 
  
 /* ---- NAVIGATION ---- */
