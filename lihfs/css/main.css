@@ -40,7 +40,8 @@ img.center {
 }
 
 article {
- margin: 0 auto;
+/*text-align: center;*/
+margin: 0 auto;
 padding: 0.875em;
 }
 
@@ -106,9 +107,6 @@ Margin-left: 110px;
  -moz-column-count:3; 
 -webkit-column-count:3; 
 column-count:3;
--moz-column-gap: 0.188em;/*3px; */ 
--webkit-column-gap: 0.188em;/*3px; */   
-column-gap: 0.188em;/*3px; */ 
 }
 
 #video_1, #video_2, #video_3 {
@@ -116,8 +114,8 @@ margin: 0.875em;
 }
  
  #main_columns {
- text-align: left;
- padding: 0.063em; /*1px;*/
+ text-align: center;
+ padding: 0.063em;/*1px;*/
  margin: 0 0 1em 0;
  overflow: hidden;
 -moz-column-count:3;  
@@ -348,9 +346,8 @@ margin: 1.25em 3.125em 0.625em 0; /*20px 50px 10px 0;*/
 margin-bottom: 20px;
 }
 
-/*---- Google Map ----*/
  
- #contact {
+#contact {
       margin-bottom: 60px;
       }
 
