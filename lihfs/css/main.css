@@ -49,10 +49,6 @@ padding: 0.875em;
 margin: 1.250em 0 1.250em 1.250em;  /*20px 0 20px 20px;*/
 }
 
-#main_image {
-margin-top: 55px;
-}
-
 #name_mike, #name_brad {
     margin-right: 10em; 
 }
@@ -94,6 +90,10 @@ Margin-left: 110px;
  
  #find {
  margin-left: 90px;
+ }
+ 
+ #faq {
+ text-align: center;
  }
  
 
