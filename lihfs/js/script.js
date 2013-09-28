@@ -1,6 +1,5 @@
 /*! jQuery v1.10.2 jquery.com | jquery.org/license */
-@charset "UTF-8";
-
+ 
 $('#menu-wrap').prepend('<div id="menu-trigger">Menu</div>');		
 $("#menu-trigger").on("click", function(){
 	$("#menu").slideToggle();
