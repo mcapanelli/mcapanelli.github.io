@@ -62,6 +62,82 @@ var areaCode = 917
 var firstPart = 224
 var secPart = 1597
 var phoneNo = "(" + String(areaCode) + ")" + " " + String(firstPart) + "-" + String(secPart);
+
+// Expressions Modulo //
+
+var remainder = 32 % 10;
+consloe.log(remainder)
+
+// Expressions Worksheet begins here //
+
+// Dog Years Example//
+
+// Sparky the Pitbull is 1 in human years, how old is he in dog years //
+var dogAge = 7;
+var peopleAge = 1;
+var humanAge = dogAge * peopleAge;
+console.log(humanAge);
+
+ 
+
+// Slice of Pie Example //
+
+// If 20 people are at a party and 5 pizzas are ordered with 10 slices each, how many slices will each partygoer get//
+
+var zaOrder = 5;
+var slicePie = 10;
+var pepParty = 20;
+var noSlice = zaOrder * slicePie / pepParty;
+console.log(noSlice)
+
+//Answer is pies*slices/No or people //
+
+ 
+
+// How many slices would the dog get is everyone got a whole number //
+
+var zaOrder = 5;
+var slicePie = 10;
+var pepParty = 20;
+var noSlice = zaOrder * slicePie / pepParty;
+var leftOver = noSlice%2;
+var sparkSlice = pepParty * leftOver;
+console.log(sparkSlice) 
+
+
+// So to calculate the number of slices we use modulo operator to gather only the remainder and  *  pepParty to get the var sparkSlice //
+
+
+
+// Find the average amount pent in a 5 week period//
+var week1 = 125
+var week2 = 160
+var week3 = 174
+var week4 = 201
+var week5 = 222
+var total = week1 + week2 + week3 + week4 + week5;
+// display the total spent first //
+var average = (week1 + week2 + week3 + week4 + week5 ) / 5;
+// Then display the average and total together with a little text //
+var amountSpent = "Total amount spent";
+var averageSpent = "Average spent per week";
+console.log(total, amountSpent) 
+console.log(average, averageSpent) 
+
 */
 
-console.log();
+// Discount percentage: display the original price, discount price, and total with tax //
+
+var orgPrice = 75; 
+var disRate = .25;
+var taxRate = 0.0875;
+var disPrice = orgPrice - (orgPrice * disRate);
+var taxTotal = disPrice + (disPrice * taxRate);
+var disCrip1 = "Your Leather Jacket was originally";
+var disCrip2 = "but after a 25% discount it is now";
+var disCrip3 = "without tax";
+var disCrip4 = "and";
+var disCrip5 = "with tax";
+console.log(disCrip1, orgPrice, disCrip2, disPrice, disCrip3, disCrip4,taxTotal, disCrip5)
+
+// This one hurt my brain a little. //
