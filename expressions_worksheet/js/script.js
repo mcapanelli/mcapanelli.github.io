@@ -141,3 +141,5 @@ var disCrip5 = "with tax";
 console.log(disCrip1, orgPrice, disCrip2, disPrice, disCrip3, disCrip4,taxTotal, disCrip5)
 
 // This one hurt my brain a little. //
+
+// To view precedding examples, remove comment marks and move console.log //
