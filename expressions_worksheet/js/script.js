@@ -140,4 +140,4 @@ var disCrip4 = "and";
 var disCrip5 = "with tax";
 console.log(disCrip1, orgPrice, disCrip2, disPrice, disCrip3, disCrip4,taxTotal, disCrip5)
 
-// This one hurt my brain a little. //
+// This one hurt my brain a little. 
