@@ -11,6 +11,7 @@ var month6 = 1;
 var averageUse = (month1 + month2 + month3 + month4 + month5 + month6) /2
 var cost = 4.99 / 4;
 var avrCost = cost * averageUse;
-var totalUse = "We use an average of" + " " + averageUse + " " + "rubber blunt tips every 6 months at a cost of" + " " + avrCost;
+var yearlyCost = avrCost * 2;
+var totalUse = "We use an average of" + " " + averageUse + " " + "rubber blunt tips every 6 months at a cost of" + " " + avrCost + " " + "per month" + " " + "and a yearly cost of" + " " + yearlyCost;
 alert(totalUse)
 console.log(totalUse)
