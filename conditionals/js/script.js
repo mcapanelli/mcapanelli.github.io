@@ -8,7 +8,7 @@ var minHeight = 48;
 var wParentHeight = 45 //height of parent //
 
 // If the child is old enough print to the console "You can ride! //
-// If shild is over 48 inches //
+// If child is over 48 inches //
 if(kidHeight > minHeight){
    console.log("you can ride the coaster!");
 } else if( kidHeight > wParentHeight ) {
