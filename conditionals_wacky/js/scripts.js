@@ -6,13 +6,14 @@
 var shawArma = 15;
 // My family cell phone bill. It's 200 a month so let's say 50 a week
 var cellBill = 50;
-// The miles I drive each week
+// My credit card bill 
 var creditBill = 45;
+// The miles I drive each week
 var milesDriven =  40;
 // total fuel cost for the week (Dependant on milesDriven)
 var fuelCost = milesDriven / 12 * 3.55;
 // the amount of money left over after paying for essentials
-ExpendAble = 150;
+ExpendAble = 100;
 // If the amount left over is equal to or greater than the cost of the Shawarma, I'm in. If not, I'm a sad boy
 var totalOnhand = ExpendAble - (fuelCost + cellBill + creditBill);
 if( totalOnhand >= shawArma){
